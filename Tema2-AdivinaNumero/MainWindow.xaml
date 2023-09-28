@@ -1,0 +1,54 @@
+﻿<Window x:Class="Tema2_AdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_AdivinaNumero"
+        mc:Ignorable="d"
+        Title="Adivina el número" Height="200" Width="500" >
+    <Grid>
+        <Button 
+            x:Name="comprobarButton"
+            Content="Comprobar" 
+            HorizontalAlignment="Left" 
+            Margin="35,107,0,0" 
+            VerticalAlignment="Top" 
+            Width="100" Height="30" FontSize="15"
+            Click="comprobarButton_Click"/>
+
+        <Button 
+            x:Name="reiniciarButton"
+            Content="Reiniciar" 
+            HorizontalAlignment="Left" 
+            Margin="140,107,0,0" 
+            VerticalAlignment="Top" 
+            Width="100" Height="30" FontSize="15" />
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="35,50,0,0" 
+            TextWrapping="Wrap" 
+            Text="¿Qué número has pensado?" 
+            VerticalAlignment="Top" 
+            Height="20" Width="215" FontSize="15"/>
+        
+        <TextBox 
+            x:Name="numeroTextBox"
+            HorizontalAlignment="Left" 
+            Margin="250,50,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top" 
+            Height="20" Width="50" FontSize="15"/>
+        
+        <TextBlock 
+            x:Name="pista_TextBlock"
+            HorizontalAlignment="Left" 
+            Margin="310,50,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top"
+            Height="20" Width="175" FontSize="15"/>
+
+
+    </Grid>
+</Window>

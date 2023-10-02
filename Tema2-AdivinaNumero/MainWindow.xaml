@@ -22,7 +22,8 @@
             HorizontalAlignment="Left" 
             Margin="140,107,0,0" 
             VerticalAlignment="Top" 
-            Width="100" Height="30" FontSize="15" />
+            Width="100" Height="30" FontSize="15" 
+            Click="reiniciarButton_Click"/>
         <TextBlock 
             HorizontalAlignment="Left" 
             Margin="35,50,0,0" 

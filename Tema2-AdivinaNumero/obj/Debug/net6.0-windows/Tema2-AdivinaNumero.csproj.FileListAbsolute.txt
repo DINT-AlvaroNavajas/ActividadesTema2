@@ -19,3 +19,5 @@ C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\Tema2-
 C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\Tema2-AdivinaNumero.genruntimeconfig.cache
 C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\ref\Tema2-AdivinaNumero.dll
 C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\Tema2-AdivinaNumero_Content.g.cs
+C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\Tema2_AdivinaNumero.Properties.Resources.resources
+C:\Users\alumno\source\repos\Tema2-AdivinaNumero\obj\Debug\net6.0-windows\Tema2-AdivinaNumero.csproj.GenerateResource.cache

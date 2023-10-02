@@ -43,5 +43,14 @@ namespace Tema2_AdivinaNumero
             if(int.Parse(numeroTextBox.Text) == num)
                 pista_TextBlock.Text = "ACERTASTE!!!";
         }
+
+        private void reiniciarButton_Click(Object sender, RoutedEventArgs e)
+        {
+            num = GeneraNumeroAleatorio();
+
+            pista_TextBlock.Text = "";
+
+            numeroTextBox.Text = "";
+        }
     }
 }
